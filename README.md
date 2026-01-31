@@ -16,7 +16,7 @@ One-click setup to use Claude through Google's Antigravity infrastructure.
 ## Quick Start
 
 ```bash
-git clone https://github.com/YOURUSER/antigravity-setup.git
+git clone https://github.com/VirelNode/antigravity-setup.git
 cd antigravity-setup
 ./install.sh
 ```
