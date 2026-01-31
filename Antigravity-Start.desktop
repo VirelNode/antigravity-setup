@@ -1,0 +1,9 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Antigravity Start
+Comment=Start Antigravity Claude Proxy on port 8081
+Exec=bash -c 'pkill -f "antigravity-claude-proxy" 2>/dev/null; PORT=8081 nohup npx antigravity-claude-proxy start > /tmp/antigravity-proxy.log 2>&1 & sleep 2 && notify-send "Antigravity" "Proxy started on port 8081 - Dashboard: http://localhost:8081"'
+Icon=network-server
+Terminal=false
+Categories=Development;

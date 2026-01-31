@@ -1,0 +1,9 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Antigravity Dashboard
+Comment=Open Antigravity Proxy Dashboard
+Exec=xdg-open http://localhost:8081
+Icon=preferences-system-network
+Terminal=false
+Categories=Development;

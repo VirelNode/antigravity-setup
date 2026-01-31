@@ -1,0 +1,9 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Antigravity Stop
+Comment=Stop Antigravity Claude Proxy
+Exec=bash -c 'pkill -f "antigravity-claude-proxy" && notify-send "Antigravity" "Proxy stopped" || notify-send "Antigravity" "Proxy was not running"'
+Icon=process-stop
+Terminal=false
+Categories=Development;

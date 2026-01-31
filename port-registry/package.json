@@ -1,0 +1,33 @@
+{
+  "name": "port-registry",
+  "version": "1.0.0",
+  "description": "Simple CLI tool to track what you use ports for",
+  "main": "dist/index.js",
+  "bin": {
+    "ports": "./dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "start": "node dist/index.js"
+  },
+  "keywords": [
+    "ports",
+    "cli",
+    "registry"
+  ],
+  "author": "Joe",
+  "license": "MIT",
+  "dependencies": {
+    "better-sqlite3": "^11.7.0",
+    "blessed": "^0.1.81",
+    "chalk": "^5.4.1",
+    "commander": "^13.1.0"
+  },
+  "devDependencies": {
+    "@types/better-sqlite3": "^7.6.12",
+    "@types/node": "^22.10.10",
+    "typescript": "^5.7.3"
+  },
+  "type": "module"
+}
